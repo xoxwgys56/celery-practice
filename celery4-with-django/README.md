@@ -17,5 +17,7 @@ the message queue model to distributed computation across one or more nodes leve
 ```sh
 brew install redis
 
+docker run --name my-redis-server -d -p 127.0.0.1:6379:6379 redis
+
 pipenv shell
 ```
