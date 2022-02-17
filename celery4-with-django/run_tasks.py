@@ -1,7 +1,7 @@
 import time, sys
 from loguru import logger
 
-from celery_tasks.tasks import latest_bitcoin_price
+from celery_tasks.basic_tasks import latest_bitcoin_price
 
 if __name__ == "__main__":
     result = latest_bitcoin_price.delay("usd")
