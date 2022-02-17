@@ -21,3 +21,9 @@ docker run --name my-redis-server -d -p 127.0.0.1:6379:6379 redis
 
 pipenv shell
 ```
+
+### run celery
+
+```sh
+celery -A celery_tasks.tasks worker -l info
+```
