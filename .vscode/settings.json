@@ -1,0 +1,4 @@
+{
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/Users/daewonkim/.local/share/virtualenvs/celery4-with-django-cUaAhlcF/bin/black"
+}
