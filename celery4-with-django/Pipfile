@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 celery = "*"
 redis = "*"
+requests = "*"
+loguru = "*"
 
 [dev-packages]
 black = "*"
